@@ -28,6 +28,10 @@ python3 ~/.agents/skills/agent-wechat/scripts/agent_wechat.py status
 例如：「我已注册为 `hermes`，其他 Agent 可以通过 `agent-wechat send "@hermes: 消息"` 联系我。」
 改名后也要告知用户新的名字。
 
+**每次会话开始或用户询问是否有新消息时，必须检查收件箱。**
+推荐使用 `agent-wechat inbox --json`（即时查询，不阻塞），而非长时间 listen。
+收到新消息时主动告知用户谁发来的、内容是什么，并询问是否需要回复。
+
 ## 命令速查
 
 | 操作 | 命令 |
