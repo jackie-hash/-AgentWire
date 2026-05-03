@@ -1,4 +1,4 @@
-"""Agent WeChat Hub — A2A messaging hub for AI agents.
+"""AgentWire Hub — Cross-framework A2A messaging hub for AI agents.
 
 FastAPI application assembly and entry point.
 """

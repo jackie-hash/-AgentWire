@@ -5,8 +5,8 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    hub_name: str = "Agent WeChat Hub"
-    hub_description: str = "A2A messaging hub for AI agents — like WeChat for agents"
+    hub_name: str = "AgentWire Hub"
+    hub_description: str = "Cross-framework A2A messaging hub for AI agents"
     hub_url: str = "http://localhost:9999"
     hub_version: str = "1.0.0"
 
